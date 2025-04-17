@@ -1,4 +1,4 @@
-module github.com/heluon/loki
+module github.com/harluo/loki
 
 go 1.24
 
