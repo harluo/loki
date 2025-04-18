@@ -8,7 +8,7 @@ require (
 	github.com/goexl/http v0.2.1
 	github.com/goexl/log v0.0.9
 	github.com/goexl/loki v0.1.3
-	github.com/harluo/boot v1.6.5
+	github.com/harluo/boot v1.6.7
 	github.com/harluo/di v0.0.3
 )
 
