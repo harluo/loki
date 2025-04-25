@@ -3,9 +3,9 @@ package core
 import (
 	"github.com/goexl/exception"
 	"github.com/goexl/gox/field"
-	"github.com/goexl/http"
 	"github.com/goexl/log"
 	"github.com/goexl/loki"
+	"github.com/harluo/http"
 	"github.com/harluo/loki/internal/config"
 	"github.com/harluo/loki/internal/internal/kernel"
 )
