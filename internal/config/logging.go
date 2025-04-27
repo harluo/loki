@@ -18,7 +18,7 @@ type Logging struct {
 	Loki *Loki `json:"loki,omitempty" validate:"required_if=Type loki"`
 }
 
-func newLogging(getter *config.Getter) (logging *Logging, err error) {
+func newLogging(getter config.Getter) (logging *Logging, err error) {
 	logging = new(Logging)
 	err = getter.Get(&struct {
 		Logging *Logging `json:"logging,omitempty" validate:"required"`
