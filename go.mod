@@ -8,17 +8,17 @@ require (
 	github.com/goexl/http v0.2.1
 	github.com/goexl/log v0.0.9
 	github.com/goexl/loki v0.1.3
-	github.com/harluo/boot v1.6.7
-	github.com/harluo/config v0.0.2
-	github.com/harluo/di v0.0.3
+	github.com/harluo/boot v1.7.1
+	github.com/harluo/config v0.0.4
+	github.com/harluo/di v0.0.5
 	github.com/harluo/http v0.0.4
 )
 
 require (
-	github.com/cpuguy83/go-md2man/v2 v2.0.6 // indirect
+	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/drone/envsubst v1.0.3 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
-	github.com/gabriel-vasile/mimetype v1.4.8 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.9 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.26.0 // indirect
