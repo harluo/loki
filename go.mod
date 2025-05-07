@@ -9,7 +9,7 @@ require (
 	github.com/goexl/loki v0.1.3
 	github.com/harluo/config v0.0.4
 	github.com/harluo/di v0.0.5
-	github.com/harluo/http v0.0.4
+	github.com/harluo/http v0.0.5
 )
 
 require (
