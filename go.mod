@@ -6,7 +6,7 @@ require (
 	github.com/goexl/exception v0.0.4
 	github.com/goexl/gox v1.9.2
 	github.com/goexl/log v0.1.0
-	github.com/goexl/loki v0.1.3
+	github.com/goexl/loki v0.1.4
 	github.com/harluo/config v0.0.7
 	github.com/harluo/di v0.0.5
 	github.com/harluo/http v0.0.5
