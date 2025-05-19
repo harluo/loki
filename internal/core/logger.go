@@ -27,7 +27,7 @@ func newLogger(config *config.Logging, http *http.Client) (logger log.Logger, er
 			factory.Password(self.Password)
 		}
 		if nil != self.Batch {
-			factory.Batch(self.Batch.Size, self.Batch.Wait)
+			factory = factory.Batch().Size(self.Batch.Size).Wait(self.Batch.Wait).Build()
 		}
 		if 0 != len(self.Labels) {
 			factory.Labels(self.Labels)
